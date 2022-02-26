@@ -87,7 +87,7 @@ chown -R 1000:1000 /var/www/html/
 Atribua a permissão 755 a pasta storage.
 
 ```sh
-chmod -R 755 /var/www/html/storage/
+chmod -R 755 /var/www/html/public/storage/
 ```
 
 Faça a migração do banco com o comando:
@@ -130,22 +130,4 @@ Digite o comando
 
 ```
 php artisan test
-```
-
-<br>
-
-
-## Desenvolvimento Frontend
-
-
-Instale as dependencias com o comando:
-
-```sh
-npm install
-```
-
-Para iniciar o desenvolvimento digite:
-
-```sh
-npm run dev
 ```
